@@ -1,56 +1,22 @@
 
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <style>
-    h1 {
-        font-size: 36px;
-        margin-bottom: 40px;
-        text-align: center;
-    }
-    .logos {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .logos img {
-        margin: 0 20px;
-        height: 100px;
-    }
-    .badges {
-        font-family: Arial, sans-serif;
-        padding: 50px;
-        text-align: center;
-        margin-top: 40px;
-    }
-    .badges img {
-        margin: 0 10px;
-    }
-    </style>
-</head>
+<h1 align="center">Real-Time Data Visualization Stack</h1>
 
-<body>
-<h1>Real-Time Data Visualization Stack: InfluxDB, Grafana, and Docker Compose</h1>
+<p align="center">
+  <img src="https://www.influxdata.com/images/influxdata_full_navy-a7ca2ff4.svg" alt="Logo InfluxDB" height="100">
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png" alt="Logo Docker" height="100">
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://grafana.com/static/assets/img/grafana_logo.svg" alt="Logo Grafana" height="100">
+</p>
 
-<div class="logos">
-    <img src="https://www.influxdata.com/wp-content/uploads/2021/11/influxdb-logo.png" alt="InfluxDB Logo">
-    <img src="https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png" alt="Docker Logo">
-    <img src="https://grafana.com/static/img/grafana_logo.svg" alt="Grafana Logo">
-</div>
-
-<div class="badges">
-    <a href="https://github.com/CaptainIgl00/grafana-influxdb-docker-compose/actions">
-        <img src="https://github.com/CaptainIgl00/grafana-influxdb-docker-compose/workflows/Build/badge.svg" alt="Build Status">
-    </a>
-    <a href="https://github.com/CaptainIgl00/grafana-influxdb-docker-compose/blob/master/LICENSE">
-        <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License">
-    </a>
-    <a href="https://github.com/CaptainIgl00/grafana-influxdb-docker-compose/releases">
-        <img src="https://img.shields.io/github/v/release/CaptainIgl00/grafana-influxdb-docker-compose" alt="Latest Release">
-    </a>
-</div>
-</body>
-</html>
+<p align="center">
+  <a href="https://github.com/CaptainIgl00/grafana-influxdb-docker-compose/blob/master/LICENSE">
+    <img src="https://img.shields.io/badge/Licence-GPL%203.0-blue.svg" alt="Licence">
+  </a>
+  <a href="https://github.com/CaptainIgl00/grafana-influxdb-docker-compose/releases">
+    <img src="https://img.shields.io/github/v/release/CaptainIgl00/grafana-influxdb-docker-compose" alt="Last Version">
+  </a>
+</p>
 
 ## Description
 
