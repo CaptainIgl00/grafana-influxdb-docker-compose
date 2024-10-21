@@ -1,0 +1,16 @@
+apiVersion: 1
+
+datasources:
+  - name: InfluxDB
+    type: influxdb
+    access: proxy
+    url: ${GF_DATASOURCE_INFLUXDB_URL}
+    secureJsonData:
+      token: ${INFLUXDB_TOKEN}
+    isDefault: true
+    editable: true
+    jsonData:
+      version: Flux
+      organization: ${INFLUXDB_ORG}
+      defaultBucket: ${INFLUXDB_DATABASE}
+      httpMode: POST
