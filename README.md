@@ -91,7 +91,7 @@ grafana-influxdb-docker-compose/
 ├── grafana-dashboards/          # Folder for custom dashboards
 │    └── Example Dashboard.json  # Example dashboard
 │
-├── grafana-provisioning/        # Folder for Grafana provisioning
+└── grafana-provisioning/        # Folder for Grafana provisioning
     ├── datasources/
     │   └── datasource.yml       # Configures InfluxDB as the default data source
     │
